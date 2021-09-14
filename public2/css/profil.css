@@ -1,0 +1,37 @@
+.profil__container {
+    width: 25%;
+    margin: auto;
+    position: relative;
+    z-index: 999;
+}
+
+.title {
+    color: #5EFF3A;
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-decoration: underline #fff 2px;
+}
+
+.para {
+    color: #fff;
+    font-size: 22px;
+    margin: 5px;
+}
+
+.profil__button {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: #fff;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.profil__button:hover {
+    background: #2ecc71;
+}

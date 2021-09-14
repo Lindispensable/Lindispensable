@@ -1,0 +1,21 @@
+.utilisateurs {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.utilisateurs__title {
+    color: #5EFF3A;
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-decoration: underline #fff 2px;
+}
+
+.utilisateurs__info {
+    color: rgb(255, 0, 0);
+    margin: 0px;
+    font-size: 24px;
+}
+
+.test {
+    color:red;
+}

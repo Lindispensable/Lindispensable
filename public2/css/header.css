@@ -1,0 +1,133 @@
+.header__navbar {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__navbar--title {
+    color: rgb(255, 213, 1);
+    font-size: 34px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    text-decoration: none;
+    vertical-align: center;
+}
+
+.header__navbar--menu {
+    display: none;
+}
+
+.header__navbar--menu-link {
+    /*color: rgb(249, 210, 25);*/
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.header__navbar--menu-link2 {
+    margin-left: 40px;
+    /*color: rgb(249, 210, 25);*/
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.header__register--menu-link{
+    font-size: 24px;
+    color: #fff;
+    font-family: "Staatliches";
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.header__register--menu-link2{
+    font-size: 24px;
+    color: #fff;
+    font-family: "Staatliches";
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.header__navbar--toggle {
+    width: 40px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header__navbar--toggle-icons, .header__navbar--toggle-icons:before, .header__navbar--toggle-icons:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    border-radius: 5px;
+    background: #fff;
+    position: relative;
+}
+
+.header__navbar--toggle-icons:before {top: 10px;}
+.header__navbar--toggle-icons:after {top: -14px;}
+
+
+
+.article {
+    width: 100%;
+    height: 200px;
+    margin-top:6%;
+    background-size: 100% auto;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.article__title {
+    font-size: 50px;
+    text-decoration: none;
+    color: #46FF3A;
+    position: absolute;
+}
+
+.article__container {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border: 5px solid rgb(255, 213, 1);
+    border-radius: 7px;
+}
+
+.article__container--title {
+    font-size: 50px;
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    margin-top: 5px;
+}
+
+.article__container--img {
+    width: 100%;
+    height: 100%;
+}
+
+.article__img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.is-open .header__navbar--menu {
+    display: flex;
+}

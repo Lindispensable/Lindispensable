@@ -1,0 +1,58 @@
+.map__image {
+    width: auto;
+    height: auto;
+    float: left;
+}
+
+.map__image path{
+    fill: rgb(122, 0, 0);
+    stroke: rgb(255, 195, 195);
+    stroke-width: 1px;
+    transition: fill 1s;
+}
+
+.map__image text{
+    font-style:normal;
+    font-weight:normal;
+    font-size:10.6667px;
+    line-height:1.25;
+    font-family:"roboto";
+    fill:#ffffff;
+    position: relative;
+    z-index: 2;
+}
+
+/* .map__image a:hover path{
+    fill: rgb(255, 36, 36);
+} */
+
+.map__image a.is-active path{
+    fill: rgb(255, 36, 36);
+}
+
+
+
+
+.map__list {
+    float: list;
+    width: auto;
+}
+
+.map__list a {
+    color: rgb(255,255,255);
+    text-decoration: none;
+    /* transition: color 5s 0.5s;
+    transition: font-size 1s 0.5s; */
+    transition: all 1s 0.5s
+}
+
+.map__list a.is-active{
+    color: rgb(255, 36, 36);
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.map__list li{
+   list-style: url('../img/vendeeLogo.png'); 
+}
+
